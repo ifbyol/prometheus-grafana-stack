@@ -4,6 +4,8 @@ ingress:
   enabled: true
   annotations:
     dev.okteto.com/generate-host: "true"
+    # Protect the endpoint with Okteto's private endpoint feature
+    dev.okteto.com/private: "true"
 
 rbac:
   pspEnabled: false
