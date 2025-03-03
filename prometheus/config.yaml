@@ -46,6 +46,6 @@ serverFiles:
       - job_name: 'okteto_wakeup_metrics'
         scrape_interval: 1m
 
-        scheme: https
+        scheme: http
         static_configs:
           - targets: ["wake-up-metrics:8080"]
