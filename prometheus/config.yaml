@@ -48,4 +48,5 @@ serverFiles:
 
         scheme: http
         static_configs:
-          - targets: ["wake-up-metrics:8080"]
+          - targets:
+              - wake-up-metrics:8080
